@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+Superellipse.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *testImage = [UIImage imageNamed:@"testImage"];
+    [self.testImageView setImage:[testImage imageWithSuperellipseEdgeForDegree:5.0 andQuality:SUPERELLIPSE_QUALITY_HIGH]];
 }
 
 - (void)didReceiveMemoryWarning {

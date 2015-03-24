@@ -84,12 +84,12 @@
 		5554E0E119F248CB009D5AB9 /* SEImage Category */ = {
 			isa = PBXGroup;
 			children = (
-				559DF91C1AC1FF68006274C1 /* UIImage+Superellipse.h */,
-				559DF91D1AC1FF68006274C1 /* UIImage+Superellipse.m */,
 				5554E0E619F248CB009D5AB9 /* AppDelegate.h */,
 				5554E0E719F248CB009D5AB9 /* AppDelegate.m */,
 				5554E0E919F248CB009D5AB9 /* ViewController.h */,
 				5554E0EA19F248CB009D5AB9 /* ViewController.m */,
+				559DF91C1AC1FF68006274C1 /* UIImage+Superellipse.h */,
+				559DF91D1AC1FF68006274C1 /* UIImage+Superellipse.m */,
 				5554E0EC19F248CB009D5AB9 /* Main.storyboard */,
 				5554E0EF19F248CB009D5AB9 /* Images.xcassets */,
 				5554E0F119F248CB009D5AB9 /* LaunchScreen.xib */,

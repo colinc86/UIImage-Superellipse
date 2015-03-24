@@ -12,7 +12,6 @@
 
 - (UIImage *)imageWithSuperellipseEdgeForDegree:(CGFloat)degree andQuality:(SuperellipseQuality)quality
 {
-    NSLog(@"called");
     UIGraphicsBeginImageContext(self.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGRect imageRect = CGRectMake(0, 0, self.size.width, self.size.height);
@@ -39,7 +38,6 @@
     }
     
     CGContextRestoreGState(context);
-    NSLog(@"done");
     return UIGraphicsGetImageFromCurrentImageContext();
 }
 
