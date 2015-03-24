@@ -14,6 +14,7 @@
 		5554E0F019F248CB009D5AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5554E0EF19F248CB009D5AB9 /* Images.xcassets */; };
 		5554E0F319F248CB009D5AB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5554E0F119F248CB009D5AB9 /* LaunchScreen.xib */; };
 		5554E0FF19F248CB009D5AB9 /* SEImage_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5554E0FE19F248CB009D5AB9 /* SEImage_CategoryTests.m */; };
+		559DF91E1AC1FF68006274C1 /* UIImage+Superellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DF91D1AC1FF68006274C1 /* UIImage+Superellipse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5554E0F819F248CB009D5AB9 /* SEImage CategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEImage CategoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5554E0FD19F248CB009D5AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5554E0FE19F248CB009D5AB9 /* SEImage_CategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEImage_CategoryTests.m; sourceTree = "<group>"; };
+		559DF91C1AC1FF68006274C1 /* UIImage+Superellipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Superellipse.h"; sourceTree = "<group>"; };
+		559DF91D1AC1FF68006274C1 /* UIImage+Superellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Superellipse.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		5554E0E119F248CB009D5AB9 /* SEImage Category */ = {
 			isa = PBXGroup;
 			children = (
+				559DF91C1AC1FF68006274C1 /* UIImage+Superellipse.h */,
+				559DF91D1AC1FF68006274C1 /* UIImage+Superellipse.m */,
 				5554E0E619F248CB009D5AB9 /* AppDelegate.h */,
 				5554E0E719F248CB009D5AB9 /* AppDelegate.m */,
 				5554E0E919F248CB009D5AB9 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				5554E0EB19F248CB009D5AB9 /* ViewController.m in Sources */,
 				5554E0E819F248CB009D5AB9 /* AppDelegate.m in Sources */,
+				559DF91E1AC1FF68006274C1 /* UIImage+Superellipse.m in Sources */,
 				5554E0E519F248CB009D5AB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				5554E10419F248CB009D5AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5554E10519F248CB009D5AB9 /* Build configuration list for PBXNativeTarget "SEImage CategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				5554E10719F248CB009D5AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
